@@ -16,9 +16,9 @@ A short script to translate Word files with Sources from the Zotero Plugin to La
 2)  Create a copy of the Word file you want to translate to latex. 
 3)  In the Word Zotero Tab / Document Preferences / select “Better BibTeX Citekeys” citation style and update your citations and bibliography. Rename the resulting document into “input.docx” and put it in the same folder.
 4)  Use the following command in terminal (in windows: right click on folder / open in terminal):
-
+```
 pandoc input.docx -f docx+citations -t latex --lua-filter=docx+citations2latex.lua -o out-put.tex
-
+```
 # Troubleshooting
 If permissions are denied, make sure to close the input.docx or any other document used in the process. If it still doesn't work, make sure you have administrator rights. 
 
