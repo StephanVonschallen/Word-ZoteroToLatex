@@ -1,5 +1,5 @@
 # Word-ZoteroToLatex
-A short script to translate Word files with Sources from the Zotero Plugin to Latex format. Useful for writing scientific papers.
+A short script to translate Word files with Sources from the Zotero Plugin to Latex format. Useful for writing scientific papers that require latex submissions, or preprint repositories.
 
 # Requirements
 1)	Microsoft Word https://www.microsoft.com/de-ch/microsoft-365/word
